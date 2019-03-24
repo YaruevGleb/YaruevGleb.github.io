@@ -1,11 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+	background-color: #ff8c1e;
+	color: dodgerblue;
+}
 p{
-			color: dodgerblue;
-			font-size: 36px;
-			font-family: 'Roboto', sans-serif;
-		}
-		h1{
-			text-align: center;
-		}
+	font-size: 80px;
+}
+h1{
+	text-align: center;
+}
+.content{
+width: 60%;
+margin:0 auto;
+padding: 50px;
+background-color:#f0f0f0;
+}
+p{
+	font-size: 36px;
+}
+h1{
+	text-align: center;
+}
 img{
 	display: block;
 	margin: 0 auto;
@@ -15,6 +36,7 @@ a{
 	font-size: 18px;
 	text-decoration: none;
 	text-align: center;
-	display: block;
+	display:inline-block;
 	color: gold;
+	margin:0 10px;
 }
